@@ -12,7 +12,7 @@
     ├─webapps
     └─work
 
-```sql
+```
 INSERT INTO 
 ```
 
