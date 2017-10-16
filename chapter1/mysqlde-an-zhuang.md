@@ -13,7 +13,7 @@
 └─work
 ```
 ```sql
-INSERT INTO 
+INSERT INTO t_system_user VALUES
 
 ```
 Hello
