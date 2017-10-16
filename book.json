@@ -6,6 +6,9 @@
 "language": "zh-hans",
 "gitbook": "3.2.2",
 "root": ".",
+"styles": {
+    "website": "styles/website.css"
+}
 "structure": {
 "readme": "README.md"
 },
