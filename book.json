@@ -1,0 +1,16 @@
+{
+"title": "青鸟IT教育Java96班随堂笔记",
+"description": "青鸟IT教育Java96班随堂笔记",
+"author": "陆志强",
+"output.name": "site",
+"language": "zh-hans",
+"gitbook": "3.2.2",
+"root": ".",
+"structure": {
+"readme": "README.md"
+},
+"links": {
+"sidebar": {
+"Home": "http://www.luzhiqiang.org"
+}
+}
