@@ -31,7 +31,7 @@ INSERT INTO table_name(field1, field2,...) SELECT field1, field2, ... FROM new_t
 ```
 实例
 
-```
+```sql
 INSERT INTO s_v1(code, name, birthday)
 SELECT code, name, birthday FROM s
 ```
