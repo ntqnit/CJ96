@@ -39,6 +39,47 @@
 - 列式目录 `dir`
 - 树状列式目录内的所有文件 `tree`
 
+例如通过tree打印MySQL安装目录的全部文件结构
+
+```
+├─bin
+├─data
+│  ├─mysql
+│  └─performance_schema
+├─docs
+├─include
+│  └─mysql
+│      └─psi
+├─lib
+│  ├─debug
+│  └─plugin
+└─share
+    ├─charsets
+    ├─czech
+    ├─danish
+    ├─dutch
+    ├─english
+    ├─estonian
+    ├─french
+    ├─german
+    ├─greek
+    ├─hungarian
+    ├─italian
+    ├─japanese
+    ├─korean
+    ├─norwegian
+    ├─norwegian-ny
+    ├─polish
+    ├─portuguese
+    ├─romanian
+    ├─russian
+    ├─serbian
+    ├─slovak
+    ├─spanish
+    ├─swedish
+    └─ukrainian
+```
+
 
 
 ## 使用Navicat管理工具
