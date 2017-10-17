@@ -46,6 +46,9 @@ SELECT code, name, birthday FROM s
 UPDATE table_name SET field1=value1, field2=value2, ... WHERE condition
 ```
 
+示例：
+
+
 
 
 
