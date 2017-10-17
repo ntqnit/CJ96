@@ -56,6 +56,8 @@ UPDATE s SET code='ss6',birthday='1990-10-10' WHERE name='zhangsan'
 
 > 同样的和修改数据操作一样，在删除数据的时候，一定要加上删除数据的**条件**。
 
+语法：
+
 
 
 
