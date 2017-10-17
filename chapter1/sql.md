@@ -40,6 +40,12 @@ SELECT code, name, birthday FROM s
 
 > 在程序开发中，修改数据一般是非常关键的操作，所以，只要是写更新数据的语句的时候，一定要想好**条件**。
 
+语法：
+
+```sql
+UPDATE table_name SET field1=value1, field2=value2, ... WHERE condition
+```
+
 
 
 
