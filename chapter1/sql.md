@@ -27,6 +27,8 @@ INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 批量插入查询结果
 
 ```sql
+INSERT INTO table_name(field1, field2,...) SELECT field1, field2, ... FROM new_talbe
+```
 
 
 
