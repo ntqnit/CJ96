@@ -22,3 +22,18 @@
 - 共享数据，API（Application Programme Interface）访问数据库，进行数据库操作
 
 > 应用程序，其实不管是用什么语言开发，其实归根结底都是在进行数据库的操作。
+
+## 数据库产品
+
+典型的关系型数据库产品：
+
+- Oracle
+- MySQL
+- SQLServer(微软)
+- DB2(IBM)
+
+
+
+
+
+
