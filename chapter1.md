@@ -11,15 +11,16 @@
 数据都是以表的形式存在的，业务之间的关系通过表与表的关联发生。
 
 表的构成：
-- 表名
-- 字段
 
-> Excel可以表现典型的关系型数据库结构，Access是Office套件中的一个文件数据库。
+* 表名
+* 字段
+
+> Excel 可以表现典型的关系型数据库结构，Access 是 Office 套件中的一个文件数据库。
 
 ## 数据库的作用
 
-- 存储和检索数据是最重要的任务
-- 共享数据，API（Application Programme Interface）访问数据库，进行数据库操作
+* 存储和检索数据是最重要的任务
+* 共享数据，API（Application Programme Interface）访问数据库，进行数据库操作
 
 > 应用程序，其实不管是用什么语言开发，其实归根结底都是在进行数据库的操作。
 
@@ -27,20 +28,17 @@
 
 典型的关系型数据库产品：
 
-- Oracle
-- MySQL(Oracle)
-- SQLServer(微软)
-- DB2(IBM)
+* Oracle
+* MySQL\(Oracle\)
+* SQLServer\(微软\)
+* DB2\(IBM\)
 
 ## MySQL数据库
 
 **版本**
 
-- 企业版
-- 社区版
-
-
-
+* 企业版
+* 社区版
 
 
 
