@@ -36,6 +36,8 @@ INSERT INTO s_v1(code, name, birthday)
 SELECT code, name, birthday FROM s
 ```
 
+**修改数据**
+
 
 
 
