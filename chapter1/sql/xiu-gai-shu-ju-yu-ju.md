@@ -11,8 +11,9 @@ _指定字段插入语法：_
 ```sql
 INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 ```
-- field1可以省略不写，但是如果不写，后面VALUES的顺序是要和你定义时的顺序保持一致的；
-- field1如果写了，那么fields里面的顺序要和VALUES后面的数值保持一致。
+
+* field1可以省略不写，但是如果不写，后面VALUES的顺序是要和你定义时的顺序保持一致的；
+* field1如果写了，那么fields里面的顺序要和VALUES后面的数值保持一致。
 
 > 在实际的开发中，一般都要给定字段进行插入，不建议省略fields的定义。
 
@@ -21,7 +22,8 @@ _批量插入查询结果_
 ```sql
 INSERT INTO table_name(field1, field2,...) SELECT field1, field2, ... FROM new_talbe
 ```
-实例
+
+示例：
 
 ```sql
 INSERT INTO s_v1(code, name, birthday)
@@ -59,16 +61,6 @@ DELETE FROM table_name WHERE condition
 ```sql
 DELETE FROM s WHERE name='zhangsan'
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 
