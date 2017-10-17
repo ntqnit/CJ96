@@ -59,7 +59,7 @@ UPDATE s SET code='ss6',birthday='1990-10-10' WHERE name='zhangsan'
 语法：
 
 ```sql
-
+DELETE FROM table_name WHERE condition
 ```
 
 
