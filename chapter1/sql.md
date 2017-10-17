@@ -63,4 +63,5 @@ UPDATE s SET code='ss6',birthday='1990-10-10' WHERE name='zhangsan'
 
 
 
+
     
