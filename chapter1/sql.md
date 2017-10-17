@@ -14,8 +14,9 @@
 
 **新增数据**
 
+语法：
 ```sql
-
+INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 ```
 
     
