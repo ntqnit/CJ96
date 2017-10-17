@@ -3,4 +3,5 @@
 * [01\_软件概论](README.md)
 * [02\_数据库](chapter1.md)
   * [MySQL的安装](chapter1/mysqlde-an-zhuang.md)
+  * [SQL](chapter1/sql.md)
 
