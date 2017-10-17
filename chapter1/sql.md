@@ -62,6 +62,14 @@ UPDATE s SET code='ss6',birthday='1990-10-10' WHERE name='zhangsan'
 DELETE FROM table_name WHERE condition
 ```
 
+示例：
+
+```sql
+DELETE FROM s WHERE name='zhangsan'
+```
+
+
+
 
 
 
