@@ -28,7 +28,7 @@
 典型的关系型数据库产品：
 
 - Oracle
-- MySQL
+- MySQL(Oracle)
 - SQLServer(微软)
 - DB2(IBM)
 
