@@ -14,7 +14,7 @@
 
 **新增数据**
 
-指定字段插入语法：
+_指定字段插入语法：_
 
 ```sql
 INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
@@ -24,7 +24,7 @@ INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 
 > 在实际的开发中，一般都要给定字段进行插入，不建议省略fields的定义。
 
-批量插入查询结果
+_批量插入查询结果_
 
 ```sql
 INSERT INTO table_name(field1, field2,...) SELECT field1, field2, ... FROM new_talbe
