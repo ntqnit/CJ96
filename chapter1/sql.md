@@ -29,6 +29,14 @@ INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 ```sql
 INSERT INTO table_name(field1, field2,...) SELECT field1, field2, ... FROM new_talbe
 ```
+实例
+
+```
+INSERT INTO s_v1(code, name, birthday)
+SELECT code, name, birthday FROM s
+```
+
+
 
 
 
