@@ -8,7 +8,13 @@
 
 选择安装版本 MSI Installer
 
+![](/assets/001.png)
+
 ## 安装
+
+> 如果已安装要卸载重新安装，需要把`C:\ProgramData\MySQL` 目录删除，否则在安装的最后一步会出现问题。
+
+
 
 ## 使用Navicat管理工具
 
