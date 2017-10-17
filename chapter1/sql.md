@@ -52,6 +52,9 @@ UPDATE table_name SET field1=value1, field2=value2, ... WHERE condition
 UPDATE s SET code='ss6',birthday='1990-10-10' WHERE name='zhangsan'
 ```
 
+**删除数据**
+
+
 
 
 
