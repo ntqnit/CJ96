@@ -18,6 +18,7 @@
 ```sql
 INSERT INTO table_name(field1, field2,...) VALUES(value1, value2, value3)
 ```
-
+- field1可以省略不写，但是如果不写，后面VALUES的顺序是要和你定义时的顺序保持一致的；
+- field1如果写了，那么fields里面的顺序要和VALUES后面的数值保持一致。
 
     
