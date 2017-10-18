@@ -91,6 +91,20 @@ CREATE TABLE student_info (
 * 外键约束（FOREIGN KEY:FK）
 * 自动增长（AUTO\_INCREAMENT）
 
+```
+-- 创建表的语句
+CREATE TABLE student_info (
+    id INT AUTO_INCREAMENT PRIMARY KEY,
+    code CHAR(2),
+    name VARCHAR(50),
+    age INT(12),
+    weight DECIMAL(10, 2),
+    birthday DATE,
+    in_school DATETIME,
+    description TEXT
+)
+```
+
 删除表
 
 修改表：
