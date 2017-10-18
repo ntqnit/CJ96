@@ -97,7 +97,7 @@ CREATE TABLE student_info (
     id INT AUTO_INCREMENT PRIMARY KEY,
     -- 建立非空和唯一性约束
     code CHAR(2) NOT NULL UNIQUE,
-    name VARCHAR(50) NOT NULL,
+    name VARCHAR(50) NOT NULL DEFAULT 'zhangsan',
     age INT(12) NOT NULL,
     weight DECIMAL(10, 2),
     birthday DATE NOT NULL,
