@@ -59,19 +59,20 @@ CREATE TABLE student_info (
 
 在数据中，我们一般不会去存储类似照片、视频这样的二进制文件，而是把这些文件在服务器中的访问地址用字符串类型的数据进行存储。
 
-> 在定义数据库字段名称时，由于数据库不区分大小写，所以，一般碰到了多个单词，我们用` _ `分隔
+> 在定义数据库字段名称时，由于数据库不区分大小写，所以，一般碰到了多个单词，我们用`_`分隔
 
 示例：
 
 ```
 -- 创建表的语句
 CREATE TABLE student_info (
-    code VARCHAR(50),
+    code CHAR(2),
     name VARCHAR(50),
     age INT(12),
     weight DECIMAL(10, 2),
     birthday DATE,
-    in
+    in_school DATETIME,
+    
 )
 ```
 
