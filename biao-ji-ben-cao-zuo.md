@@ -96,7 +96,9 @@ CREATE TABLE student_info (
 CONSTRAINT 外键名称 FOREIGN KEY 外键字段 REFERENCES 外键关联表(关联表的字段)
 ```
 
-* 自动增长（AUTO\_INCREMENT）
+* 自动增长（AUTO\_INCREMENT）、
+
+综合示例：
 
 ```
 -- 创建表的语句
