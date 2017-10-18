@@ -111,6 +111,14 @@ CREATE TABLE student_info (
     in_school DATETIME NOT NULL,
     description TEXT
 )
+
+CREATE TABLE student_account (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    account VARCHAR(20),
+    password VARCHAR(20)
+    CONSTRAINT FK_SI_SA_01 FOREIGN KEY student_id REFERENCES student_info(id)
+)
 ```
 
 删除表
