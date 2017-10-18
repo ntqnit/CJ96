@@ -93,7 +93,7 @@ CREATE TABLE student_info (
 语法：
 
 ```sql
-CONSTRAINT 外键名称 FOREIGN KEY 外键字段 REFERENCES 外键关联表(关联表的字段)
+CONSTRAINT 外键名称 FOREIGN KEY (外键字段) REFERENCES 外键关联表(关联表的字段)
 ```
 
 * 自动增长（AUTO\_INCREMENT）、
