@@ -53,7 +53,7 @@ CREATE TABLE student_info (
 
 日期类型：一般使用 DATETIME （用日期和时间构成）、DATE（只是表示日期），其他不常用的还有 TIME 、YEAR等等。
 
-字符串类型：一般最常使用 VARCHAR（可变长度）、CHAR（定长）、TEXT（长文本类型，例如博客文章等数据）
+字符串类型：一般最常使用 VARCHAR（可变长度）、CHAR（定长）、TEXT（长文本类型，例如博客文章等数据），其他不常用的还有 LONGTEXT、TINYTEXT等等。
 
 > VARCHAR 和 CHAR 的区别：例如 VARCHAR 定义的长度为 200，在使用的时候是存储了 4 个字符长度的字符串，那么在数据库中只会占用 4 个字符的数据空间，CHAR 是定长，无论存储多少数据，在数据空间中都会占用到定义的长度。
 
