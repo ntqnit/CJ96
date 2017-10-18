@@ -95,12 +95,12 @@ CREATE TABLE student_info (
 -- 创建表的语句
 CREATE TABLE student_info (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    code CHAR(2),
-    name VARCHAR(50),
-    age INT(12),
+    code CHAR(2) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    age INT(12) NOT NULL,
     weight DECIMAL(10, 2),
-    birthday DATE,
-    in_school DATETIME,
+    birthday DATE NOT NULL,
+    in_school DATETIME NOT NULL,
     description TEXT
 )
 ```
