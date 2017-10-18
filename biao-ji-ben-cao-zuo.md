@@ -89,6 +89,13 @@ CREATE TABLE student_info (
 * 默认值（DEFAULT）
 * 唯一约束（UNIQUE KEY:UK）
 * 外键约束（FOREIGN KEY:FK）
+
+语法：
+
+```
+CONSTRAINT 外键名称 FOREIGN KEY 外键字段 REFERENCES 外键关联表(关联表的字段)
+```
+
 * 自动增长（AUTO\_INCREMENT）
 
 ```
