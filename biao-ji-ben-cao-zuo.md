@@ -6,7 +6,7 @@
 
 MySQL的主要存储引擎：
 
-* **InnoDB：**
+* **InnoDB：支持事务**
 * MyISAM
 
 ## 表操作
