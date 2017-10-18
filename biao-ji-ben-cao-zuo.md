@@ -43,7 +43,13 @@ CREATE TABLE student_info (
 
 **MySQL 字段数据类型**
 
+> 主要分为：数值、日期、字符串三种类型。
 
+数值类型：MySQL 是支持所有标准 SQL 中的数值类型。在绝大多数的应用程序中，我们使用 INT 和 DECIMAL 类型就可以了。
+
+* INT：整型
+* DECIMAL：浮点类型
+* 其他数值类型：SMALLINT、NUMBERIC
 
 删除表
 
