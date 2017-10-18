@@ -30,11 +30,16 @@ CREATE TABLE table_name (
 示例：
 
 ```sql
+-- 创建表的语句
 CREATE TABLE student_info (
     code VARCHAR(50),
     name VARCHAR(50)
 )
 ```
+
+**SQL语言的注释**
+
+用`-- `表示注释部分的内容 
 
 删除表
 
