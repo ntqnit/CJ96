@@ -89,12 +89,12 @@ CREATE TABLE student_info (
 * 默认值（DEFAULT）
 * 唯一约束（UNIQUE KEY:UK）
 * 外键约束（FOREIGN KEY:FK）
-* 自动增长（AUTO\_INCREAMENT）
+* 自动增长（AUTO\_INCREMENT）
 
 ```
 -- 创建表的语句
 CREATE TABLE student_info (
-    id INT AUTO_INCREAMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     code CHAR(2),
     name VARCHAR(50),
     age INT(12),
