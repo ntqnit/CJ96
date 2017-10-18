@@ -72,7 +72,7 @@ CREATE TABLE student_info (
     weight DECIMAL(10, 2),
     birthday DATE,
     in_school DATETIME,
-    
+    description TEXT
 )
 ```
 
