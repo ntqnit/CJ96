@@ -5,6 +5,10 @@
   2. 使用 XMind 进行表结构的构思和设计；
   3. 使用 Navicat 导出结构和数据脚本；
   4. 自学关于表结构删除和修改的脚本。
+  5. 视频地址：
+    http://v.youku.com/v_show/id_XMzA5MzIzNDI3Ng==.html?f=51239862&o=0
+    http://v.youku.com/v_show/id_XMzA5MzIzNDM0NA==.html?&f=51239862&o=0&from=y1.2-3.4.2
+    http://v.youku.com/v_show/id_XMzA5MzI1MDQ1Mg==.html?&f=51239862&o=0&from=y1.2-3.4.1
 
 * 2017-10-17
   1. 在 MySQL 官网下载 5.5 版本的安装程序，进行安装和卸载再安装实验；
