@@ -95,7 +95,7 @@ CREATE TABLE student_info (
 -- 创建表的语句
 CREATE TABLE student_info (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    code CHAR(2) NOT NULL,
+    code CHAR(2) NOT NULL UNIQUE,
     name VARCHAR(50) NOT NULL,
     age INT(12) NOT NULL,
     weight DECIMAL(10, 2),
