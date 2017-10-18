@@ -14,7 +14,7 @@ MySQL的主要存储引擎：
 
 ## 表操作
 
-创建表
+**创建表**
 
 > 表的元素有：表名、表的字段
 >
@@ -24,6 +24,15 @@ MySQL的主要存储引擎：
 CREATE TABLE table_name (
     字段名称 字段数据类型 [字段约束],
     字段名称 字段数据类型 [字段约束] 
+)
+```
+
+示例：
+
+```sql
+CREATE TABLE student_info (
+    code VARCHAR(50),
+    name VARCHAR(50)
 )
 ```
 
