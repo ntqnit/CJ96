@@ -87,6 +87,7 @@ CREATE TABLE student_info (
 * 默认值
 * 唯一约束
 * 外键约束
+* 自动增长
 
 删除表
 
