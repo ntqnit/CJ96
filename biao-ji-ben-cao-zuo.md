@@ -100,7 +100,7 @@ CONSTRAINT 外键名称 FOREIGN KEY 外键字段 REFERENCES 外键关联表(关�
 
 ```
 -- 创建表的语句
-CREATE TABLE student_info (
+CREATE TABLE student_info1 (
     id INT AUTO_INCREMENT PRIMARY KEY,
     -- 建立非空和唯一性约束
     code CHAR(2) NOT NULL UNIQUE,
@@ -112,12 +112,12 @@ CREATE TABLE student_info (
     description TEXT
 )
 
-CREATE TABLE student_account (
+CREATE TABLE student_account1 (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT,
     account VARCHAR(20),
     password VARCHAR(20),
-    CONSTRAINT FK_SI_SA_01 FOREIGN KEY (student_id) REFERENCES student_info(id)
+    CONSTRAINT FK_SI_SA_01 FOREIGN KEY (student_id) REFERENCES student_info1(id)
 )
 ```
 
