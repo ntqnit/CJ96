@@ -29,7 +29,7 @@ FROM c AS course
 
 语法：
 
-```
+```sql
 SELECT * FROM table_name [WHERE condition]
 ```
 
