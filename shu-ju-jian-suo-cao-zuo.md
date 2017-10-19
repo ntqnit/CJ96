@@ -35,5 +35,9 @@ SELECT * FROM table_name [WHERE condition]
 
 > 此处遍历出来的数据的顺序是创建表中字段的顺序。
 
+* 避免重复数据的查询
+
+使用关键字：DISTINCT
+
 
 
