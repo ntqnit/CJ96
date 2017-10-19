@@ -114,5 +114,9 @@ SELECT * FROM stu_info WHERE clazz IN ('C1', 'C2');
 SELECT * FROM stu_info WHERE clazz = 'C1' OR clazz = 'C2'
 ```
 
+LIKE
+
+> 模糊查询：用的较多
+
 
 
