@@ -194,7 +194,7 @@ FROM 表名
 [GROUP BY 表字段1, 表字段2
  HAVING 分组完成后的过滤条件（可以加聚合）
 ]
-[ORDER BY 分组完的字段1 ASC/DESC, 分组完的字段1 ASC/DESC,...]
+[ORDER BY 分组完的字段1 ASC/DESC, 分组完的字段2 ASC/DESC,...]
 ```
 
 
