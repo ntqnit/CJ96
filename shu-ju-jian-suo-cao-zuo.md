@@ -129,6 +129,8 @@ SELECT * FROM stu_info WHERE name LIKE '%李%';
 ## 数据排序
 
 > 数据的排序方式：顺序 ASC、逆序 DESC。
+>
+> 在排序中是可以多字段排序的，即会有第一排序条件和第二、三...次排序条件
 
 
 
