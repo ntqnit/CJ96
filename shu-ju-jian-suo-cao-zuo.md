@@ -9,7 +9,7 @@
 语法：
 
 ```sql
-SELECT field1, field2,... FROM table_name [WHERE condition]
+SELECT field1, field2,... FROM table_name [WHERE condition] [ORDER BY field1 ASC/DESC, field2 ASC/DESC,...]
 ```
 
 示例：
