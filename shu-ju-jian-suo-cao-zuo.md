@@ -156,5 +156,23 @@ SELECT * FROM stu_info ORDER BY clazz ASC, code DESC LIMIT 9, 3
 * 每个班级有多少学生；
 * 每个班级中年龄最大的学生是谁；
 
+> 对于一个较完整的 SQL 语句执行的解释
+
+```sql
+SELECT 
+clazz,MAX(age) AS '最大年龄',
+COUNT(*) AS '多少人' 
+FROM stu_info 
+WHERE id > 2
+GROUP BY clazz HAVING count(*) > 1
+ORDER BY MAX(age) DESC
+```
+
+执行顺序
+
+1. 筛选整个表找那个` id > 2` 的数据；
+2. 把筛选出的记录按照 `clazz` 字段进行分组；
+3. 把分组完的结果，筛选出每组数据总数量 &gt; 1的数据 `count(*) > 1`
+4. 
 
 
