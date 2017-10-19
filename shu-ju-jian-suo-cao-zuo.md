@@ -82,5 +82,12 @@ SELECT * FROM stu_info WHERE age >= 18 AND clazz = 'C1' AND code = '01'
 
 > 一般用在对数值或者日期的区间判断条件中，而且是可以被替代的。
 
+```sql
+SELECT * FROM stu_info WHERE age BETWEEN 16 AND 20
+SELECT * FROM stu_info WHERE age >= 16 AND age <=20
+-- 使用 NOT 取反
+SELECT * FROM stu_info WHERE NOT (age >= 16 AND age <=20)
+```
+
 
 
