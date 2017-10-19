@@ -66,5 +66,13 @@ SELECT DISTINCT clazz FROM stu_info
 * 带 IN 关键字的条件查询；
 * 带 LIKE 关键字的条件查询。
 
+**关系运算符和逻辑运算符**
+
+关系运算符：&gt;、 &gt;=、 &lt;、 &lt;=、 !=\(&lt;&gt;\)、 =；
+
+逻辑运算符：AND\(&&\)、OR\(\|\|\)、NOT\(!\)、XOR。
+
+
+
 
 
