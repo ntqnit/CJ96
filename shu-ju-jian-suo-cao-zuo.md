@@ -116,7 +116,7 @@ SELECT * FROM stu_info WHERE clazz = 'C1' OR clazz = 'C2'
 
 LIKE
 
-> 模糊查询：用的较多
+> 模糊查询：用的较多，一般用到的是全匹配 `%搜索字%`，尾部匹配 `搜索字%`
 
 
 
