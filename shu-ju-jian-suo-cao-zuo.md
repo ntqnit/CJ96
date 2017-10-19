@@ -45,5 +45,7 @@ SELECT * FROM table_name [WHERE condition]
 SELECT DISTINCT clazz FROM stu_info
 ```
 
+* **查询数据处理**
+
 
 
