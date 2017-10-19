@@ -78,5 +78,9 @@ SELECT DISTINCT clazz FROM stu_info
 SELECT * FROM stu_info WHERE age >= 18 AND clazz = 'C1' AND code = '01'
 ```
 
+**BETWEEN ADN**
+
+> 一般用在对数值或者日期的区间判断条件中，而且是可以被替代的。
+
 
 
