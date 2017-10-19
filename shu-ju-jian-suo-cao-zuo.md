@@ -108,5 +108,11 @@ SELECT * FROM stu_info WHERE name IS NOT NULL
 
 > 条件在某些离散的数据范围内
 
+```sql
+SELECT * FROM stu_info WHERE clazz IN ('C1', 'C2');
+-- 替代方案
+SELECT * FROM stu_info WHERE clazz = 'C1' OR clazz = 'C2'
+```
+
 
 
