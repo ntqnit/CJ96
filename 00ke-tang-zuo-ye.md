@@ -1,8 +1,9 @@
 # 课堂作业
 
 * 2017-10-19
+  1. 视频地址：[课时一](http://v.youku.com/v_show/id_XMzA5NTMwNzg3Mg==.html?f=51239862)、[课时二](http://v.youku.com/v_show/id_XMzA5NTMwNzg2NA==.html?f=51239862)、[课时三](http://v.youku.com/v_show/id_XMzA5NTMwNzg4OA==.html?f=51239862)
 
-* 
+
 * 2017-10-18  
   1. 将自主饭店订餐相关表加上具体的数据类型和约束，并完善数据；  
   2. 使用 XMind 进行表结构的构思和设计；  
