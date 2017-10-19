@@ -60,7 +60,11 @@ SELECT DISTINCT clazz FROM stu_info
 
 ## 条件查询
 
-
+* 带关系运算符和逻辑运算符的表达式；
+* 带 BETWEEN AND 关键字的条件查询；
+* 带 IS NULL 关键字的条件查询；
+* 带 IN 关键字的条件查询；
+* 带 LIKE 关键字的条件查询。
 
 
 
