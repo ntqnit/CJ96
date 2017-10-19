@@ -132,5 +132,9 @@ SELECT * FROM stu_info WHERE name LIKE '%李%';
 >
 > 在排序中是可以多字段排序的，即会有第一排序条件和第二、三...次排序条件
 
+```sql
+SELECT * FROM stu_info ORDER BY clazz ASC, code DESC
+```
+
 
 
