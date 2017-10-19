@@ -1,6 +1,7 @@
 # 课堂作业
 
 * 2017-10-19
+  1.
   1. 视频地址：[课时一](http://v.youku.com/v_show/id_XMzA5NTMwNzg3Mg==.html?f=51239862)、[课时二](http://v.youku.com/v_show/id_XMzA5NTMwNzg2NA==.html?f=51239862)、[课时三](http://v.youku.com/v_show/id_XMzA5NTMwNzg4OA==.html?f=51239862)
 
 
