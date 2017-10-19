@@ -58,5 +58,9 @@ SELECT DISTINCT clazz FROM stu_info
     SELECT name, CONCAT('¥',price) AS '人民币', CONCAT('$',price/6) AS '美元' FROM t_menu
     ```
 
+## 条件查询
+
+
+
 
 
