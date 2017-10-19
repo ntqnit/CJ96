@@ -151,5 +151,10 @@ SELECT * FROM stu_info ORDER BY clazz ASC, code DESC LIMIT 9, 3
 
 ## 统计函数和分组查询
 
+例如要查询：
+
+* 每个班级有多少学生；
+* 每个班级中年龄最大的学生是谁；
+
 
 
