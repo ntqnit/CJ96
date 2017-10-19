@@ -149,5 +149,7 @@ SELECT * FROM stu_info ORDER BY clazz ASC, code DESC LIMIT 9, 3
 -- y = num
 ```
 
+## 统计函数和分组查询
+
 
 
