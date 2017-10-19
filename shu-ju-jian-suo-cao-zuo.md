@@ -33,5 +33,7 @@ FROM c AS course
 SELECT * FROM table_name [WHERE condition]
 ```
 
+> 此处遍历出来的数据的顺序是创建表中字段的顺序。
+
 
 
