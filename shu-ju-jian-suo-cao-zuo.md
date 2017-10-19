@@ -126,5 +126,5 @@ SELECT * FROM stu_info WHERE name LIKE '李%';
 SELECT * FROM stu_info WHERE name LIKE '%李%';
 ```
 
-
+## 数据排序
 
