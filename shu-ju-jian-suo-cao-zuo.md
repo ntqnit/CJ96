@@ -136,5 +136,11 @@ SELECT * FROM stu_info WHERE name LIKE '%李%';
 SELECT * FROM stu_info ORDER BY clazz ASC, code DESC
 ```
 
+## 限制数据记录数量
+
+使用 LIMIT 关键字，后面跟两个参数，第一个参数是从第几条开始，第二个是一共显示多少条记录
+
+
+
 
 
