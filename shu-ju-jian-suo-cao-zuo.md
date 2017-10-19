@@ -14,9 +14,14 @@ SELECT field1, field2,... FROM table_name [WHERE condition]
 
 示例：
 
+```sql
+SELECT 
+course.name AS '名称',
+course.code AS '编码' 
+FROM c AS course
 ```
 
-```
+> 我们习惯的会在查询中指定表的别名，同样在字段上写可以定义别名。
 
 
 
