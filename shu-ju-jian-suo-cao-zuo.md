@@ -39,3 +39,9 @@ SELECT * FROM table_name [WHERE condition]
 
 使用关键字：DISTINCT
 
+```sql
+SELECT DISTINCT clazz FROM stu_info
+```
+
+
+
