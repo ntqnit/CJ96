@@ -104,5 +104,9 @@ SELECT * FROM stu_info WHERE name = ''; -- 判断空字符串
 SELECT * FROM stu_info WHERE name IS NOT NULL
 ```
 
+**IN**
+
+> 条件在某些离散的数据范围内
+
 
 
