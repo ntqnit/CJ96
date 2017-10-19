@@ -140,7 +140,14 @@ SELECT * FROM stu_info ORDER BY clazz ASC, code DESC
 
 使用 LIMIT 关键字，后面跟两个参数，第一个参数是从第几条开始，第二个是一共显示多少条记录
 
+```sql
+SELECT * FROM stu_info ORDER BY clazz ASC, code DESC LIMIT 9, 3
 
+-- 显示 page 页，每页显示 num 条记录
+-- page = 2; num = 3;
+-- x = (page - 1) * num
+-- y = num
+```
 
 
 
