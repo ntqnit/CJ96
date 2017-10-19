@@ -39,6 +39,8 @@ SELECT * FROM table_name [WHERE condition]
 
 使用关键字：DISTINCT
 
+> 例如要查询有在校生的班级编号，就可以使用 DISTINCT 关键字，查询 stu\_info 表。
+
 ```sql
 SELECT DISTINCT clazz FROM stu_info
 ```
