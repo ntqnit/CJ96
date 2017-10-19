@@ -89,5 +89,9 @@ SELECT * FROM stu_info WHERE age >= 16 AND age <=20
 SELECT * FROM stu_info WHERE NOT (age >= 16 AND age <=20)
 ```
 
+**IS NULL**
+
+> 判断数据结果集中非空元素
+
 
 
