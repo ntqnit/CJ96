@@ -25,7 +25,13 @@ FROM c AS course
 
 * 查询所有数据
 
-使用通配符` * `查询
+使用通配符`*`查询
+
+语法：
+
+```
+SELECT * FROM table_name [WHERE condition]
+```
 
 
 
