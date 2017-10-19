@@ -46,6 +46,16 @@ SELECT DISTINCT clazz FROM stu_info
 ```
 
 * **查询数据处理**
+  * 数学运算的数据结果处理：+ - \* / %
+```sql
+SELECT name, price AS '人民币', price/6 AS '美元' FROM t_menu
+```
+  * 格式化的数据处理
+    使用CONCAT(STR1, STR2, ...)进行字符串拼接是最常用的。
+```sql
+SELECT name, CONCAT('¥',price) AS '人民币', CONCAT('$',price/6) AS '美元' FROM t_menu
+```
+
 
 
 
