@@ -72,7 +72,11 @@ SELECT DISTINCT clazz FROM stu_info
 
 逻辑运算符：AND\(&&\)、OR\(\|\|\)、NOT\(!\)、XOR。
 
+示例：
 
+```sql
+SELECT * FROM stu_info WHERE age >= 18 AND clazz = 'C1' AND code = '01'
+```
 
 
 
