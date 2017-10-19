@@ -91,7 +91,18 @@ SELECT * FROM stu_info WHERE NOT (age >= 16 AND age <=20)
 
 **IS NULL**
 
-> 判断数据结果集中非空元素，要注意的是：NULL 和 空字符串是两个概念，
+> 判断数据结果集中非空元素，要注意的是：NULL 和 空字符串是两个概念，使用的查询条件不尽相同
+
+```sql
+SELECT * FROM stu_info WHERE name IS NULL;
+SELECT * FROM stu_info WHERE name = ''; -- 判断空字符串
+```
+
+使用非空判断是要注意
+
+```sql
+SELECT * FROM stu_info WHERE name IS NOT NULL
+```
 
 
 
