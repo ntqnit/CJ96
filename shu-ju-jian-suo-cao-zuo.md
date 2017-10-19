@@ -128,7 +128,7 @@ SELECT * FROM stu_info WHERE name LIKE '%李%';
 
 ## 数据排序
 
-> 数据的排序方式：顺序 ASC、逆序 DESC.
+> 数据的排序方式：顺序 ASC、逆序 DESC。
 
 
 
