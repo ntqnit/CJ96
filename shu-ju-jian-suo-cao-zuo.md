@@ -91,7 +91,7 @@ SELECT * FROM stu_info WHERE NOT (age >= 16 AND age <=20)
 
 **IS NULL**
 
-> 判断数据结果集中非空元素
+> 判断数据结果集中非空元素，要注意的是：NULL 和 空字符串是两个概念，
 
 
 
