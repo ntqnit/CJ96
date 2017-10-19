@@ -120,5 +120,11 @@ LIKE
 >
 > 其他还有单个字匹配 `_` 和首部匹配 `%搜索字`
 
+```sql
+SELECT * FROM stu_info WHERE name LIKE '李_强';
+SELECT * FROM stu_info WHERE name LIKE '李%';
+SELECT * FROM stu_info WHERE name LIKE '%李%';
+```
+
 
 
