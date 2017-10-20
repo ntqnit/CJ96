@@ -49,5 +49,23 @@ SELECT s.`code`, s.`name`, c.`name` FROM student s
 LEFT JOIN clazz c ON s.clazz_id = c.id
 ```
 
+**综合查询**
+
+```sql
+-- 查询学员选课信息，要求显示出班级、账号、课程等基础信息
+SELECT 
+cl.name as '班级名称',
+s.`code` as '学号',
+s.`name` as '姓名', 
+a.username as '账号',
+a.password as '账号密码',
+c.`name` as '课程名称'
+FROM student_course sc
+LEFT JOIN student s ON sc.student_id = s.id
+LEFT JOIN course c on sc.course_id = c.id
+LEFT JOIN clazz cl on s.clazz_id = cl.id
+LEFT JOIN account a on a.student_id = s.id
+```
+
 自学内容：右外连接、全连接
 
