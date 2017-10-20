@@ -21,6 +21,7 @@
 > 使用 WHERE 条件将两个表之间进行关联查询
 
 ```sql
+-- 查询学员的学号、姓名、所在班级名称
 SELECT s.clazz_id,s.code,s.`name`,c.id,c.`name`
 FROM student as s, clazz as c
 WHERE S.clazz_id = C.id
