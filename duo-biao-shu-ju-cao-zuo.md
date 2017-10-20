@@ -43,5 +43,11 @@ INNER JOIN clazz c ON s.clazz_id = c.id
 
 > 以左表为主表，左表中的数据都会被显示出来，关联的右表中，如果存在符合条件的数据，那么会被关联出并显示，如果没有，则会显示 NULL。
 
+```sql
+-- 左外连接
+SELECT s.`code`, s.`name`, c.`name` FROM student s 
+LEFT JOIN clazz c ON s.clazz_id = c.id
+```
+
 
 
