@@ -16,7 +16,7 @@
 
 ## 表关联查询
 
-自然连接查询
+**自然连接查询**
 
 > 使用 WHERE 条件将两个表之间进行关联查询
 
@@ -25,6 +25,18 @@
 SELECT s.clazz_id,s.code,s.`name`,c.id,c.`name`
 FROM student as s, clazz as c
 WHERE S.clazz_id = C.id
+```
+
+要注意的是，如果不加条件，直接查询，会把两个表进行笛卡尔积的操作，查询出来的数据是有问题。
+
+**内连接查询**
+
+> 内连接查询是可以使用自然连接查询替代的，但是效率方面，内连接会高
+
+```sql
+-- 内连接查询
+SELECT s.`code`, s.`name`, c.`name` FROM student s 
+INNER JOIN clazz c ON s.clazz_id = c.id 
 ```
 
 
