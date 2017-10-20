@@ -49,5 +49,5 @@ SELECT s.`code`, s.`name`, c.`name` FROM student s
 LEFT JOIN clazz c ON s.clazz_id = c.id
 ```
 
-
+自学内容：右外连接、全连接
 
