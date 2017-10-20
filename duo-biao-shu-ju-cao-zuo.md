@@ -36,8 +36,12 @@ WHERE S.clazz_id = C.id
 ```sql
 -- 内连接查询
 SELECT s.`code`, s.`name`, c.`name` FROM student s 
-INNER JOIN clazz c ON s.clazz_id = c.id 
+INNER JOIN clazz c ON s.clazz_id = c.id
 ```
+
+**左外连接查询**
+
+> 以左表为主表，左表中的数据都会被显示出来，关联的右表中，如果存在符合条件的数据，那么会被关联出并显示，如果没有，则会显示 NULL。
 
 
 
