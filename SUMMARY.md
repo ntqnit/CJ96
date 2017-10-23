@@ -8,6 +8,7 @@
     * [修改数据语句](chapter1/sql/xiu-gai-shu-ju-yu-ju.md)
     * [数据检索操作](shu-ju-jian-suo-cao-zuo.md)
     * [多表数据操作](duo-biao-shu-ju-cao-zuo.md)
+  * [表结构设计](chapter1/biao-jie-gou-she-ji.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)
 * [学员名录](xue-yuan-ming-lu.md)
