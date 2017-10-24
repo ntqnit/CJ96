@@ -13,5 +13,7 @@
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)
 * [学员名录](xue-yuan-ming-lu.md)
+* [班会纪要](ban-hui-ji-yao.md)
+* 2017-10-24
 * [缺勤记录](xue-yuan-kao-qin.md)
 
