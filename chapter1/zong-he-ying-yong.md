@@ -79,3 +79,11 @@ WHERE s.id = 7;
 
 4.2、 确认订单：修改订单头
 
+> 输入项：订单编号，默认操作：确认时间、修改订单状态
+
+```sql
+UPDATE t_busi_order_head SET confirm_time = now(), state = 2 WHERE id = 5;
+```
+
+
+
