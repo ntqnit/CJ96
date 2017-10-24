@@ -47,7 +47,7 @@ VALUES(CONCAT('PO',unix_timestamp(now())),'是', 1, 4, 1, now(), 4, 8, 1);
 
 **4、确认订单菜品**
 
-4.1、4.1 插入订单明细数据
+4.1、插入订单明细数据
 
 > 输入性：关联订单、规格ID、数量、非价格属性规格、备注
 
@@ -77,5 +77,5 @@ LEFT JOIN t_base_menu m ON s.menu_id = m.id
 WHERE s.id = 7;
 ```
 
-
+4.2、 确认订单：修改订单头
 
