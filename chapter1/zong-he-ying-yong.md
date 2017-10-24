@@ -22,7 +22,7 @@
 
 ## 数据处理
 
-1. 注册会员
+**1、注册会员**
 
 > 输入项：曹敏、女、1380000000，作为一个完整的记录，还需要默认值
 
@@ -31,7 +31,12 @@ INSERT INTO t_base_customer(name, sex, tel, vip_code, is_vip)
 VALUES('曹敏', 1, '138000000', CONCAT('V',unix_timestamp(now())) ,1);
 ```
 
-2. 会员信息完善
+**2、会员信息完善**
 
 > 输入项：用户ID、微信账号、地址、生日
+
+```sql
+UPDATE t_base_customer SET wechat='123456', address='南通', birthday='1995-10-10' WHERE id=4;
+```
+
 
