@@ -132,5 +132,12 @@ WHERE m.window_id = 4 AND h.id = 5;
 
 > 输入项：关联订单、收银员、优惠金额、支付方式
 
+```sql
+UPDATE t_busi_order_head h
+INNER JOIN (SELECT SUM(d.price * d.amount) as psum, d.order_head_id as order_id FROM t_busi_order_detail d GROUP BY d.order_head_id) AS t ON h.id = t.order_id
+SET h.cashier_id = 2, h.state = 3, h.total = t.psum, h.discount = 10, h.actual_amount = total - discount, h.check_out_time = now(), pay_type = '现金'
+WHERE h.id = 5;
+```
+
 
 
