@@ -126,5 +126,11 @@ LEFT JOIN t_base_menu m ON d.menu_id = m.id
 WHERE m.window_id = 4 AND h.id = 5;
 ```
 
+**5、埋单**
+
+5.1、修改订单数据
+
+> 输入项：关联订单、收银员、优惠金额、支付方式
+
 
 
