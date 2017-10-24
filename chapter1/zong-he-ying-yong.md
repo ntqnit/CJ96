@@ -101,3 +101,30 @@ GROUP BY m.window_id;
 
 4.4、档口订单明细
 
+> 输入项：档口订单，档口ID，订单ID
+
+```sql
+INSERT INTO t_busi_window_detail(p_id, order_detail_id, finish_time)
+SELECT 9, d.id, DATE_ADD(h.confirm_time,INTERVAL m.finish_time*d.amount MINUTE)
+FROM t_busi_order_detail d 
+LEFT JOIN t_busi_order_head h ON d.order_head_id = h.id
+LEFT JOIN t_base_menu m ON d.menu_id = m.id
+WHERE m.window_id = 1 AND h.id = 5;
+
+INSERT INTO t_busi_window_detail(p_id, order_detail_id, finish_time)
+SELECT 10, d.id, DATE_ADD(h.confirm_time,INTERVAL m.finish_time*d.amount MINUTE)
+FROM t_busi_order_detail d 
+LEFT JOIN t_busi_order_head h ON d.order_head_id = h.id
+LEFT JOIN t_base_menu m ON d.menu_id = m.id
+WHERE m.window_id = 3 AND h.id = 5;
+
+INSERT INTO t_busi_window_detail(p_id, order_detail_id, finish_time)
+SELECT 11, d.id, DATE_ADD(h.confirm_time,INTERVAL m.finish_time*d.amount MINUTE)
+FROM t_busi_order_detail d 
+LEFT JOIN t_busi_order_head h ON d.order_head_id = h.id
+LEFT JOIN t_base_menu m ON d.menu_id = m.id
+WHERE m.window_id = 4 AND h.id = 5;
+```
+
+
+
