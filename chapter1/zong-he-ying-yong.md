@@ -17,8 +17,7 @@
 
 **基础数据表：**
 
-* 
-## 数据处理
+* ## 数据处理
 
 **1、注册会员**
 
@@ -51,6 +50,32 @@ VALUES(CONCAT('PO',unix_timestamp(now())),'是', 1, 4, 1, now(), 4, 8, 1);
 4.1、4.1 插入订单明细数据
 
 > 输入性：关联订单、规格ID、数量、非价格属性规格、备注
+
+```sql
+INSERT INTO t_busi_order_detail(order_head_id, menu_id, name, fode_code_id, cost, price, amount, specification, comment)
+SELECT 5, m.id, m.name, s.id, s.specification_price, s.specification_cost, 1, '微辣', '少油'
+FROM t_base_menu_stand s
+LEFT JOIN t_base_menu m ON s.menu_id = m.id
+WHERE s.id = 1;
+
+INSERT INTO t_busi_order_detail(order_head_id, menu_id, name, fode_code_id, cost, price, amount, specification, comment)
+SELECT 5, m.id, m.name, s.id, s.specification_price, s.specification_cost, 1, '', ''
+FROM t_base_menu_stand s
+LEFT JOIN t_base_menu m ON s.menu_id = m.id
+WHERE s.id = 3;
+
+INSERT INTO t_busi_order_detail(order_head_id, menu_id, name, fode_code_id, cost, price, amount, specification, comment)
+SELECT 5, m.id, m.name, s.id, s.specification_price, s.specification_cost, 1, '中辣', '不要香菜'
+FROM t_base_menu_stand s
+LEFT JOIN t_base_menu m ON s.menu_id = m.id
+WHERE s.id = 6;
+
+INSERT INTO t_busi_order_detail(order_head_id, menu_id, name, fode_code_id, cost, price, amount, specification, comment)
+SELECT 5, m.id, m.name, s.id, s.specification_price, s.specification_cost, 1, '中辣', '不要香菜'
+FROM t_base_menu_stand s
+LEFT JOIN t_base_menu m ON s.menu_id = m.id
+WHERE s.id = 7;
+```
 
 
 
