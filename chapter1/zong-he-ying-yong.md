@@ -87,3 +87,17 @@ UPDATE t_busi_order_head SET confirm_time = now(), state = 2 WHERE id = 5;
 
 4.3、分配档口订单
 
+> 输入项：订单编号,创建档口订单头表
+
+```sql
+INSERT INTO t_busi_window_order_head(amount, order_head_id, code, window_id, create_time)
+SELECT count(*), 5, CONCAT('D',unix_timestamp(now())),m.window_id , now()
+FROM t_busi_order_detail d
+LEFT JOIN t_busi_order_head h ON d.order_head_id = h.id
+LEFT JOIN t_base_menu m ON d.menu_id = m.id
+WHERE h.id = 5
+GROUP BY m.window_id;
+```
+
+
+
