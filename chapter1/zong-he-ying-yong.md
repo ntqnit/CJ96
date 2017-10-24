@@ -139,5 +139,19 @@ SET h.cashier_id = 2, h.state = 3, h.total = t.psum, h.discount = 10, h.actual_a
 WHERE h.id = 5;
 ```
 
+5.2、修改会员消费数据：增加消费数量、修改最近消费时间、增加消费总额，注意判断字段是否为空
+
+> 输入项：关联订单
+
+```sql
+UPDATE t_base_customer c
+INNER JOIN t_busi_order_head h ON h.customer_id = c.id AND h.id = 5
+SET c.con_closest = h.confirm_time, c.con_count =  IFNULL(c.con_count,0) + 1, c.con_sum = IFNULL(c.con_sum,0) + h.actual_amount
+```
+
+**6、统计分析**
+
+各自整理。
+
 
 
