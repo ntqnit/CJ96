@@ -18,8 +18,6 @@
 **基础数据表：**
 
 * 
-
-
 ## 数据处理
 
 **1、注册会员**
@@ -38,5 +36,21 @@ VALUES('曹敏', 1, '138000000', CONCAT('V',unix_timestamp(now())) ,1);
 ```sql
 UPDATE t_base_customer SET wechat='123456', address='南通', birthday='1995-10-10' WHERE id=4;
 ```
+
+**3、客户点餐**
+
+> 输入项：餐厅、服务员、餐桌、时间、会员、就餐人数
+
+```sql
+INSERT INTO t_busi_order_head(code, member, restaurant_id, employee_id, table_id, enter_time, customer_id, amount, state)
+VALUES(CONCAT('PO',unix_timestamp(now())),'是', 1, 4, 1, now(), 4, 8, 1);
+```
+
+**4、确认订单菜品**
+
+4.1、4.1 插入订单明细数据
+
+> 输入性：关联订单、规格ID、数量、非价格属性规格、备注
+
 
 
