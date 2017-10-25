@@ -8,6 +8,8 @@ Java可以理解为编程语言或者开发工具。
 
 Java 最终的目的是用于编写直接在机器上运行的程序。
 
+与 HTML 运行与浏览器，SQL 运行与数据库系统对比，Java 能做的事情更多，更加的普遍。
+
 **对于跨平台的理解**
 
 为了让平台对编程人员透明，写出可以在不同平台运行的相同源代码，Java 开发除了 JVM （Java 虚拟机）。
@@ -41,7 +43,7 @@ Java开发工具包（Java Development Kit），是一套用户给 Java 编程�
 └─lib 核心类库
 ```
 
-**通过配置方式部署 JDK**
+## **通过配置方式部署 JDK**
 
 **关于命令提示符的基本操作**
 
@@ -136,15 +138,15 @@ Hello, World!
 
 ```java
 public class Hello {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		for (int i = 1; i <= 9; i++) {
-			for (int j = 1; j <= i; j++) {
-				System.out.print("" + i + " * " + j + " = " + (i*j) + "\t");
-			}
-			System.out.println();
-		}
-	}
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("" + i + " * " + j + " = " + (i*j) + "\t");
+            }
+            System.out.println();
+        }
+    }
 }
 ```
 
