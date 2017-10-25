@@ -117,5 +117,5 @@ public class Hello {
 }
 ```
 
-
+1、使用 javac 命令将 Hello.java 文件编译成 Hello.class 字节码文件
 
