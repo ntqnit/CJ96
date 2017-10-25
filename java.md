@@ -93,5 +93,13 @@ Path 变量的用途：系统的全局的路径，我们在任意位置可以访
 
 **配置 JDK**
 
+前提条件：需要包含完整 JDK 文件的文件夹。
+
+1、 JAVA\_HOME = `d:\xx\xx\jdk1.8`
+
+2、在 Path 中**追加目录** `%JAVA_HOME%\bin`
+
+3、CLASSPATH = `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
+
 
 
