@@ -101,5 +101,5 @@ Path 变量的用途：系统的全局的路径，我们在任意位置可以访
 
 3、CLASSPATH = `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
-
+这样就完成了 JDK 的部署。
 
