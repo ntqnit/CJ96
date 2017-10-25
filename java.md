@@ -45,5 +45,5 @@ Java开发工具包（Java Development Kit），是一套用户给 Java 编程�
 
 关于命令提示符的基本操作
 
-
+进入：`cmd`
 
