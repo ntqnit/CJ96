@@ -25,7 +25,9 @@ Java 最终的目的是用于编写直接在机器上运行的程序。
 
 Java开发工具包（Java Development Kit），是一套用户给 Java 编程人员的开发套件，其中包含了：
 
-* JRE （Java Runtime Envoirment）：Java 运行时环境
+* JRE （Java Runtime Envoirment）：Java 运行时环境，其中最重要的部件是 JVM；
+* Java 开发工具：编译工具 javac、API 生成工具 javadoc......；
+* 核心类库 （Java API）
 
 
 
