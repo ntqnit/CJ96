@@ -10,6 +10,7 @@
     * [多表数据操作](duo-biao-shu-ju-cao-zuo.md)
   * [表结构设计](chapter1/biao-jie-gou-she-ji.md)
   * [综合应用](chapter1/zong-he-ying-yong.md)
+* [JAVA](java.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)
 * [学员名录](xue-yuan-ming-lu.md)
