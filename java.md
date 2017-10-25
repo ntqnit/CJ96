@@ -23,6 +23,10 @@ Java 最终的目的是用于编写直接在机器上运行的程序。
 * SUN 公司
 * Oracle 公司 09 年收购 SUN 公司
 
+## Java 的运行原理
+
+
+
 ## JDK
 
 Java开发工具包（Java Development Kit），是一套用户给 Java 编程人员的开发套件，其中包含了：
