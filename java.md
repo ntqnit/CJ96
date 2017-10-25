@@ -81,5 +81,5 @@ D:\My Training>
 
 **什么是环境变量**
 
-
+path
 
