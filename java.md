@@ -166,3 +166,7 @@ public class Hello {
 
 自学部分：Java 的发展史，JDK 的版本过程。
 
+[菜鸟教程解释](http://www.runoob.com/java/java-intro.html)
+
+[百度解释](https://baike.baidu.com/item/Java/85979?fr=aladdin)
+
