@@ -119,3 +119,16 @@ public class Hello {
 
 1、使用 javac 命令将 Hello.java 文件编译成 Hello.class 字节码文件
 
+```
+javac Hello.java
+```
+
+2、使用 java 命令，调用本机的 JVM 执行字节码文件
+
+```
+D:\>java Hello
+Hello, World!
+```
+
+
+
