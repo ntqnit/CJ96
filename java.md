@@ -107,13 +107,13 @@ Path 变量的用途：系统的全局的路径，我们在任意位置可以访
 
 Hello,World 程序的意图：验证你配置的开发环境是否是正确有效的。
 
-在某个目录中新建一个名叫 Hello.java 的文件（注意把文件后缀隐藏选项去掉）
+在某个目录中新建一个名叫 Hello.java 的文件（注意把文件后缀隐藏选项去掉），文件内容如下
 
 ```java
 public class Hello {
-	public static void main(String[] args) {
-		System.out.println("Hello, World!");
-	}
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
 ```
 
