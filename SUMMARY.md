@@ -20,11 +20,12 @@
   * [数据类型](java/shu-ju-lei-xing-he-yun-suan-fu.md)
 
 * 教学管理
-  * [课堂作业](00ke-tang-zuo-ye.md)
-  * [课堂备忘录](00ke-tang-bei-wang-lu.md)
   * [学员名录](xue-yuan-ming-lu.md)
+  * [课堂作业](00ke-tang-zuo-ye.md)
   * [班会纪要](ban-hui-ji-yao.md)
     * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
   * [缺勤记录](xue-yuan-kao-qin.md)
+  * [课堂备忘录](00ke-tang-bei-wang-lu.md)
+
 
 
