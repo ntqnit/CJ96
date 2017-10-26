@@ -1,5 +1,6 @@
 # Summary
 
+* [学习路线](xue-xi-lu-xian.md)
 * [软件概论](README.md)
 * [数据库](chapter1.md)
   * [数据库介绍](shu-ju-ku-jie-shao.md)
@@ -16,12 +17,11 @@
   * [JAVA 运行原理](java/java-yun-xing-yuan-li.md)
   * [JDK 配置](java/jdk-pei-zhi.md)
   * [类和对象](java/lei-he-dui-xiang.md)
-  * [数据类型和运算符](java/shu-ju-lei-xing-he-yun-suan-fu.md)
+  * [数据类型](java/shu-ju-lei-xing-he-yun-suan-fu.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)
 * [学员名录](xue-yuan-ming-lu.md)
 * [班会纪要](ban-hui-ji-yao.md)
   * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
 * [缺勤记录](xue-yuan-kao-qin.md)
-
 
