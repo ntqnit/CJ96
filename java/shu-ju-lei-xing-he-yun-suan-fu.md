@@ -8,5 +8,7 @@ public class Hello {
 }
 ```
 
+* 类是 Java 中最基础的组成
+
 
 
