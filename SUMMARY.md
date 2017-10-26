@@ -24,5 +24,5 @@
   * [班会纪要](ban-hui-ji-yao.md)
     * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
   * [缺勤记录](xue-yuan-kao-qin.md)
-  * [课堂备忘录](00ke-tang-bei-wang-lu.md)
+  * [班级备忘录](00ke-tang-bei-wang-lu.md)
 
