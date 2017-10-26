@@ -11,9 +11,10 @@
   * [表结构设计](chapter1/biao-jie-gou-she-ji.md)
   * [综合应用](chapter1/zong-he-ying-yong.md)
 * [JAVA](java.md)
-  * JAVA 介绍
-  * JAVA 运行原理
+  * [JAVA 介绍](java/java-jie-shao.md)
+  * [JAVA 运行原理](java/java-yun-xing-yuan-li.md)
   * JDK 配置
+  * 类和对象
   * [数据类型和运算符](java/shu-ju-lei-xing-he-yun-suan-fu.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)
@@ -21,5 +22,4 @@
 * [班会纪要](ban-hui-ji-yao.md)
   * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
 * [缺勤记录](xue-yuan-kao-qin.md)
-
 
