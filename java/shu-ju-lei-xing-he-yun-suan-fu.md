@@ -2,8 +2,11 @@
 
 ```java
 public class Hello {
-    public staitc void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Hello, world!");
     }
 }
 ```
+
+
+
