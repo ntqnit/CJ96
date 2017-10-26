@@ -126,7 +126,7 @@ IDE （集成开发环境）：可以自动编译（保存即编译）、代码�
 1. 本地创建一个文件夹作为默认的工作空间；
 2. 创建 java project；
 3. 在 src 中新建 class 文件；
-4. 运行程序，在 class 文件中右键 「run as」-&gt; 「java application」
+4. 运行程序，在 class 文件中右键 「run as」-&gt; 「java application」。
 
 自学部分：
 - 了解 Java 中哪些转义字符；
