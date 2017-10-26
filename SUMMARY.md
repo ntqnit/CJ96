@@ -14,7 +14,7 @@
   * [JAVA 介绍](java/java-jie-shao.md)
   * [JAVA 运行原理](java/java-yun-xing-yuan-li.md)
   * [JDK 配置](java/jdk-pei-zhi.md)
-  * 类和对象
+  * [类和对象](java/lei-he-dui-xiang.md)
   * [数据类型和运算符](java/shu-ju-lei-xing-he-yun-suan-fu.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
 * [课堂备忘录](00ke-tang-bei-wang-lu.md)

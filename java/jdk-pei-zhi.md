@@ -141,7 +141,7 @@ System.out.println();
 9 * 1 = 9 9 * 2 = 18 9 * 3 = 27 9 * 4 = 36 9 * 5 = 45 9 * 6 = 54 9 * 7 = 63 9 * 8 = 72 9 * 9 = 81
 ```
 
-自学部分：Java 的发展史，JDK 的版本过程。
+**自学部分**：Java 的发展史，JDK 的版本过程。
 
 [菜鸟教程解释](http://www.runoob.com/java/java-intro.html)
 
