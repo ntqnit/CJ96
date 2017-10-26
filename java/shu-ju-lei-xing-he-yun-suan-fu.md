@@ -160,7 +160,8 @@ IDE （集成开发环境）：可以自动编译、代码提示。
 
 1. 本地创建一个文件夹作为默认的工作空间；
 2. 创建 java project；
-3. 在 src 中新建 class 文件。
+3. 在 src 中新建 class 文件；
+4. 运行程序，在 class 文件中右键 「run as」-&gt; 「java application」
 
 
 
