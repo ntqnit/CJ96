@@ -18,7 +18,7 @@
   * [JDK 配置](java/jdk-pei-zhi.md)
   * [类和对象](java/lei-he-dui-xiang.md)
   * [数据类型](java/shu-ju-lei-xing-he-yun-suan-fu.md)
-* 教学管理
+* [教学管理](jiao-xue-guan-li.md)
   * [学员名录](xue-yuan-ming-lu.md)
   * [课堂作业](00ke-tang-zuo-ye.md)
   * [班会纪要](ban-hui-ji-yao.md)
