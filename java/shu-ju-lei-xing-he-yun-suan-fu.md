@@ -128,5 +128,10 @@ IDE （集成开发环境）：可以自动编译（保存即编译）、代码�
 3. 在 src 中新建 class 文件；
 4. 运行程序，在 class 文件中右键 「run as」-&gt; 「java application」
 
+自学部分：
+- 了解 Java 中哪些转义字符；
+- 使用 Eclipse 将项目中的类生成 javadoc 文档；
+- 收集常用的 Eclipse 快捷键。
+
 
 
