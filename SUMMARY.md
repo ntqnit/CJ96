@@ -13,7 +13,7 @@
 * [JAVA](java.md)
   * [JAVA 介绍](java/java-jie-shao.md)
   * [JAVA 运行原理](java/java-yun-xing-yuan-li.md)
-  * JDK 配置
+  * [JDK 配置](java/jdk-pei-zhi.md)
   * 类和对象
   * [数据类型和运算符](java/shu-ju-lei-xing-he-yun-suan-fu.md)
 * [课堂作业](00ke-tang-zuo-ye.md)
