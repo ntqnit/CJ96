@@ -2,6 +2,7 @@
 
 * [软件概论](README.md)
 * [数据库](chapter1.md)
+  * [数据库介绍](shu-ju-ku-jie-shao.md)
   * [MySQL的安装](chapter1/mysqlde-an-zhuang.md)
   * [SQL](chapter1/sql.md)
     * [表基本操作](biao-ji-ben-cao-zuo.md)
@@ -22,4 +23,5 @@
 * [班会纪要](ban-hui-ji-yao.md)
   * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
 * [缺勤记录](xue-yuan-kao-qin.md)
+
 
