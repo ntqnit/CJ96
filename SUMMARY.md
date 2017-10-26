@@ -1,7 +1,7 @@
 # Summary
 
-* [学习路线](xue-xi-lu-xian.md)
-* [软件概论](README.md)
+* [前言](README.md)
+* [计算机概论](ruan-jian-gai-shu.md)
 * [数据库](chapter1.md)
   * [数据库介绍](shu-ju-ku-jie-shao.md)
   * [MySQL的安装](chapter1/mysqlde-an-zhuang.md)
@@ -25,5 +25,4 @@
     * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
   * [缺勤记录](xue-yuan-kao-qin.md)
   * [课堂备忘录](00ke-tang-bei-wang-lu.md)
-* [计算机概率](ruan-jian-gai-shu.md)
 
