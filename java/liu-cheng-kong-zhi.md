@@ -18,8 +18,18 @@ Java 中的分支选择结构有 if 结构、switch 结构
 
 * 形式一：
 
+```java
+if (logic expression) {
+    statement;
+}
+```
+
+* 形式二：
+
 ```
 if (logic expression) {
+    statement;
+} else {
     statement;
 }
 ```
