@@ -51,3 +51,9 @@ System.out.println(m); // 12
 
 或者：只要有一个真就是真
 
+## 三目运算符
+
+expression ? if-true-statement : if-false-statement
+
+
+
