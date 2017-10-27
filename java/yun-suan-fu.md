@@ -39,5 +39,7 @@ System.out.println(m); // 12
 
 `&gt; &lt; &gt;= &lt;= == !=`
 
+> 左右两边的操作数只能是数值
+
 
 
