@@ -35,5 +35,11 @@ System.out.println(m); // 12
 
 ## 比较运算符
 
+用于判断两个变量或者常量的大小，返回结果为 true/false。
+
+`&gt; &lt; &gt;= &lt;= == !=`
+
+
+
 
 
