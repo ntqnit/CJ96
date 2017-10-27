@@ -56,5 +56,29 @@ if (age > 18) {
 
 * 形式三：
 
+```java
+if (logic expression) {
+    statement;
+} else if (logic expression) {
+    statement;
+} else {
+    statement;
+}
+```
+
+```java
+if (age >= 0 && age <= 10) {
+	System.out.println("少年");
+} else if (age <= 18) {
+	System.out.println("青少年");
+} else if (age <= 30) {
+	System.out.println("青年");
+} else if (age <= 50) {
+	System.out.println("中年");
+} else {
+	System.out.println("老年");
+}
+```
+
 
 
