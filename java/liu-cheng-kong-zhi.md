@@ -16,7 +16,7 @@ Java 中的分支选择结构有 if 结构、switch 结构
 
 具备三种类型的结构表现形式
 
-* 形式一：
+* **形式一：**
 
 ```java
 if (logic expression) {
@@ -32,7 +32,7 @@ if (age > 18) {
 }
 ```
 
-* 形式二：
+* **形式二：**
 
 ```java
 if (logic expression) {
@@ -52,7 +52,7 @@ if (age > 18) {
 }
 ```
 
-* 形式三：
+* **形式三：**
 
 ```java
 if (logic expression) {
