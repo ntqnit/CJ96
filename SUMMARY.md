@@ -21,6 +21,7 @@
   * [变量](java/bian-liang.md)
   * [直接量](java/zhi-jie-liang.md)
   * [运算符](java/yun-suan-fu.md)
+  * [流程控制](java/liu-cheng-kong-zhi.md)
 * [教学管理](jiao-xue-guan-li.md)
   * [学员名录](xue-yuan-ming-lu.md)
   * [课堂作业](00ke-tang-zuo-ye.md)
