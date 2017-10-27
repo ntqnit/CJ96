@@ -1,4 +1,6 @@
-# 流程控制
+```
+流程控制
+```
 
 * 顺序结构
 * 判断（分支选择）结构
@@ -40,6 +42,16 @@ if (logic expression) {
 } else {
     statement;
 }
+```
+
+```java
+int age = 16;
+if (age > 18) {
+	String name = "Tom";
+	System.out.println("我叫" + name + "，已经" + age + "岁了，我成年了！");
+} else {
+	System.out.println("我还未成年！");
+} 
 ```
 
 
