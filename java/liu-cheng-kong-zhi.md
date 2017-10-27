@@ -141,7 +141,7 @@ default: {
 
 ### while 结构
 
-```
+```java
 (init_statement);
 while (test_expression) {
     body_statement;
@@ -149,7 +149,7 @@ while (test_expression) {
 }
 ```
 
-```
+```java
 int sum = 0;
 int i = 1;
 
@@ -162,4 +162,6 @@ System.out.println(sum); // 55
 ```
 
 ### do-while 结构
+
+
 
