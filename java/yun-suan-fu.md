@@ -57,11 +57,19 @@ expression ? if-true-statement : if-false-statement
 
 实例：
 
-```
+```java
 int age = 16;
 String ageStr = age > 18 ? "成年" : "未成年";
 System.out.println(ageStr); // 未成年
 ```
+
+## 结合性和优先级
+
+应该尽量在比较复杂的表达式中使用圆括号，明确的标注计算的优先级。
+
+
+
+## 
 
 
 
