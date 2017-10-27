@@ -68,17 +68,17 @@ if (logic expression) {
 
 ```java
 if (age >= 0 && age <= 10) {
-	System.out.println("少年");
+    System.out.println("少年");
 } else if (age <= 18) {
-	System.out.println("青少年");
+    System.out.println("青少年");
 } else if (age <= 30) {
-	System.out.println("青年");
+    System.out.println("青年");
 } else if (age <= 50) {
-	System.out.println("中年");
+    System.out.println("中年");
 } else {
-	System.out.println("老年");
+    System.out.println("老年");
 }
 ```
 
-
+### switch 结构
 
