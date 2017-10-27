@@ -55,5 +55,13 @@ System.out.println(m); // 12
 
 expression ? if-true-statement : if-false-statement
 
+实例：
+
+```
+int age = 16;
+String ageStr = age > 18 ? "成年" : "未成年";
+System.out.println(ageStr); // 未成年
+```
+
 
 
