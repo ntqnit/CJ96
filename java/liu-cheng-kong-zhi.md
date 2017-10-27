@@ -163,7 +163,7 @@ System.out.println(sum); // 55
 
 ### do-while 结构
 
-```
+```java
 (init_statement);
 do {
     body_statement;
@@ -173,7 +173,18 @@ do {
 
 > 无论如何都会执行一次循环体内容
 
+```java
+int i = 1;
+int sum = 0;
+		
+do {
+	sum += i++;
+//	sum = sum + i;
+//	i = i + 1;
+} while (i <= 10);
 
+System.out.println(sum); // 11
+```
 
 
 
