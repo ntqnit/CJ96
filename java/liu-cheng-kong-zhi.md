@@ -24,11 +24,11 @@ if (logic expression) {
 }
 ```
 
-```
+```java
 int age = 20;
 if (age > 18) {
-	String name = "Tom";
-	System.out.println("我叫" + name + "，已经" + age + "岁了，我成年了！");
+    String name = "Tom";
+    System.out.println("我叫" + name + "，已经" + age + "岁了，我成年了！");
 }
 ```
 
