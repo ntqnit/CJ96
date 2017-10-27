@@ -8,6 +8,19 @@
 ++ 自增
 -- 自减
 
+实例：
+
+
+```
+		int m = 10;
+		System.out.println(m++); // 10
+		System.out.println(m); // 11
+		System.out.println(++m); // 12
+		System.out.println(-m); // -12
+```
+
+
+
 
 
 
