@@ -163,5 +163,13 @@ System.out.println(sum); // 55
 
 ### do-while 结构
 
+```
+(init_statement);
+do {
+    body_statement;
+    [iteration_statement];
+} while (test_expression)
+```
+
 
 
