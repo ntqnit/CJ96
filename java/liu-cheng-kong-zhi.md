@@ -141,7 +141,13 @@ default: {
 
 ### while 结构
 
-
+```
+(init_statement);
+while (test_expression) {
+    body_statement;
+    [iteration_statement];
+}
+```
 
 
 
