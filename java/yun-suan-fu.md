@@ -24,5 +24,14 @@ System.out.println(-m); // -12
 
 = += -+ \*= /= %=
 
+实例
+
+```
+m += 1; // m = m + 1
+		System.out.println(m); // 13
+		m -= 1; // m = m - 1
+		System.out.println(m); // 12
+```
+
 
 
