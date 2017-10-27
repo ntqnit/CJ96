@@ -102,5 +102,31 @@ switch (expression) {
 }
 ```
 
+```java
+String color = "red";
+switch (color) {
+case "red": {
+	System.out.println("红色");
+	break;
+}
+case "blue": {
+	System.out.println("蓝色");
+	break;
+}
+case "green": {
+	System.out.println("绿色");
+	break;
+}
+default: {
+	System.out.println("没有找到");
+	break;
+}
+}
+```
+
+> 在 case 中要加入 break 关键字跳出；
+>
+> 在实际的开发中，我们一般使用 if - else 结构替代 switch.
+
 
 
