@@ -86,10 +86,19 @@ swtich 语句是有控制表达式和多个 case 标签块组成。在控制表�
 
 ```
 switch (expression) {
-    case condition : {
+    case condition1 : {
         statement;
         break;
     }
+    case condition2 : {
+        statement;
+        break;
+    }
+    default : {
+        statement;
+        break;
+    }
+
 }
 ```
 
