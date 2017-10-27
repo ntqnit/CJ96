@@ -26,7 +26,7 @@ if (logic expression) {
 
 * 形式二：
 
-```
+```java
 if (logic expression) {
     statement;
 } else {
