@@ -84,7 +84,7 @@ if (age >= 0 && age <= 10) {
 
 swtich 语句是有控制表达式和多个 case 标签块组成。在控制表达式中，只允许出现 byte、short、int、char四种基础数据类型，在JDK1.7以后，支持 String 类型的控制表达式。
 
-```
+```java
 switch (expression) {
     case condition1 : {
         statement;
