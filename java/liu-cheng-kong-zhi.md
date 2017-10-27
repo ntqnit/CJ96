@@ -154,11 +154,11 @@ int sum = 0;
 int i = 1;
 
 while (i <= 10) {
-	sum = sum + i;
-	i++;
+    sum = sum + i;
+    i++;
 }
 
-System.out.println(sum);
+System.out.println(sum); // 55
 ```
 
 
