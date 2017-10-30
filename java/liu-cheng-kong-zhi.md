@@ -208,5 +208,21 @@ System.out.println(sum);
 
 > 在实际的开发中，对于已知循环次数的遍历，一般使用 for 循环。而且 for 循环的应用场景要比 while 循环多。
 
+### 控制循环结构
+
+在循环体中，使用 break 关键字跳出这个循环
+
+```java
+int flag = 6;
+int sum = 0;
+for (int i = 1; i <= 10; i++) {
+	sum = sum + i;
+	if (i == flag) {
+		break;
+	}
+}
+System.out.println(sum);
+```
+
 
 
