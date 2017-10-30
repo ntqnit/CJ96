@@ -74,11 +74,11 @@ for (type element : array | collections) {
 
 ```java
 for(int a : arrs3) {
-	a = a + 5;
+    System.out.println(a);
 }
 ```
 
-> 使用 foreach 一般情况下，值用作遍历数据，如果要对数组中元素进行修改，还是需要使用 for 循环带索引的方式进行，因为在上述的代码中，a 只是循环元素的一个副本。
+> 使用 foreach 一般情况下，值用作**遍历数据**，如果要对数组中元素进行修改，还是需要使用 for 循环带索引的方式进行，因为在上述的代码中，a 只是循环元素的一个副本。
 
 
 
