@@ -210,7 +210,7 @@ System.out.println(sum);
 
 ### 控制循环结构
 
-在循环体中，使用 break 关键字跳出这个循环
+break：在循环体中，使用 break 关键字跳出**整个循环**。
 
 ```java
 int flag = 6;
@@ -222,6 +222,19 @@ for (int i = 1; i <= 10; i++) {
     }
 }
 System.out.println(sum); // 21
+```
+
+continue：在循环体中，使用 continue 跳出**本次循环**，循环还会继续执行。
+
+```java
+int sum = 0;
+for (int i = 1; i <= 10; i++) {
+	if (i % 2 == 0) {
+		continue;
+	}
+	sum = sum + i;
+}
+System.out.println(sum); // 25
 ```
 
 
