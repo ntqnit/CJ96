@@ -27,7 +27,7 @@ type 变量名[]; // 只要知道就可以
 语法：
 
 ```
-type[] arrayName = {element1, element2,....};
+type[] arrayName = {element1, element2,....}; // 比较常见
 type[] arrayName = new type[]{element1, element2,...};
 ```
 
@@ -39,6 +39,4 @@ int[] arrs = {1, 2, 3, 4}; // 简写
 ```
 
 动态初始化
-
-
 
