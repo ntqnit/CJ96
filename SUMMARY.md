@@ -30,4 +30,5 @@
     * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
   * [缺勤记录](xue-yuan-kao-qin.md)
   * [班级备忘录](00ke-tang-bei-wang-lu.md)
+* [周测统计](zhou-ce-tong-ji.md)
 
