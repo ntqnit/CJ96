@@ -40,3 +40,11 @@ int[] arrs = {1, 2, 3, 4}; // 简写
 
 动态初始化
 
+语法：
+
+```
+type[] arrayName = new type[length];
+```
+
+
+
