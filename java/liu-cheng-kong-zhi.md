@@ -176,14 +176,24 @@ do {
 ```java
 int i = 1;
 int sum = 0;
-		
+
 do {
-	sum += i++;
-//	sum = sum + i;
-//	i = i + 1;
+    sum += i++;
+//    sum = sum + i;
+//    i = i + 1;
 } while (i <= 10);
 
 System.out.println(sum); // 11
+```
+
+### for 循环
+
+语法：
+
+```java
+for () {
+    body_statement;
+}
 ```
 
 
