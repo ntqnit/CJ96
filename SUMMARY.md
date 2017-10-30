@@ -26,10 +26,10 @@
 * [教学管理](jiao-xue-guan-li.md)
   * [学员名录](xue-yuan-ming-lu.md)
   * [周测统计](zhou-ce-tong-ji.md)
+  * [2017-10-27](2017-10-27.md)
   * [课堂作业](00ke-tang-zuo-ye.md)
   * [班会纪要](ban-hui-ji-yao.md)
     * [2017-10-24](ban-hui-ji-yao/2017-10-24.md)
   * [缺勤记录](xue-yuan-kao-qin.md)
   * [班级备忘录](00ke-tang-bei-wang-lu.md)
-
 
