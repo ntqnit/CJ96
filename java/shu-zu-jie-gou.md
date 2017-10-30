@@ -24,6 +24,13 @@ type 变量名[]; // 只要知道就可以
 
 静态初始化
 
+语法：
+
+```
+type[] arrayName = {element1, element2,....};
+type[] arrayName = new type[]{element1, element2,...};
+```
+
 ```java
 int[] arrs2;
 arrs2 = new int[]{1, 2 ,3 ,4};
