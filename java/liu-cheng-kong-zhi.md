@@ -191,7 +191,7 @@ System.out.println(sum); // 11
 语法：
 
 ```java
-for (init_statement; test_expression; iteration_statement) {
+for ([init_statement]; test_expression; [iteration_statement]) {
     body_statement;
 }
 ```
@@ -201,7 +201,7 @@ for (init_statement; test_expression; iteration_statement) {
 ```java
 int sum = 0;
 for (int i = 1; i <= 28; i++) {
-	sum = sum + i;
+    sum = sum + i;
 }
 System.out.println(sum);
 ```
