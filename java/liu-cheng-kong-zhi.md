@@ -196,5 +196,17 @@ for (init_statement; test_expression; iteration_statement) {
 }
 ```
 
+实例
+
+```java
+int sum = 0;
+for (int i = 1; i <= 28; i++) {
+	sum = sum + i;
+}
+System.out.println(sum);
+```
+
+> 在实际的开发中，对于已知循环次数的遍历，一般使用 for 循环。而且 for 循环的应用场景要比 while 循环多。
+
 
 
