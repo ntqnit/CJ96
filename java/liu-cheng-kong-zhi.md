@@ -191,7 +191,7 @@ System.out.println(sum); // 11
 语法：
 
 ```java
-for () {
+for (init_statement; test_expression; iteration_statement) {
     body_statement;
 }
 ```
