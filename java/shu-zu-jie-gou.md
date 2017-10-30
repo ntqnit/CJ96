@@ -52,5 +52,15 @@ type[] arrayName = new type[length];
 * 通过数组索引方式对数组元素进行赋值时，使用数组.length属性作为 for 循环的条件。
 * 在对数组元素进行操作时，一般使用 for 循环结构。
 
+```java
+for (int i = 0; i < arrs3.length; i++) {
+	arrs3[i] = (i+1) * 10;
+}
+
+for (int i = 0; i < arrs3.length; i++) {
+	System.out.println(arrs3[i]);
+}
+```
+
 
 
