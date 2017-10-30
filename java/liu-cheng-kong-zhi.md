@@ -216,12 +216,12 @@ System.out.println(sum);
 int flag = 6;
 int sum = 0;
 for (int i = 1; i <= 10; i++) {
-	sum = sum + i;
-	if (i == flag) {
-		break;
-	}
+    sum = sum + i;
+    if (i == flag) {
+        break;
+    }
 }
-System.out.println(sum);
+System.out.println(sum); // 21
 ```
 
 
