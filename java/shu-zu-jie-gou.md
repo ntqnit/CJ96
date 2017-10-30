@@ -54,13 +54,31 @@ type[] arrayName = new type[length];
 
 ```java
 for (int i = 0; i < arrs3.length; i++) {
-	arrs3[i] = (i+1) * 10;
+    arrs3[i] = (i+1) * 10;
 }
 
 for (int i = 0; i < arrs3.length; i++) {
-	System.out.println(arrs3[i]);
+    System.out.println(arrs3[i]);
 }
 ```
+
+foreach 遍历数组
+
+```
+for (type element : array | collections) {
+    element...
+}
+```
+
+实例：
+
+```java
+for(int a : arrs3) {
+	a = a + 5;
+}
+```
+
+> 使用 foreach 一般情况下，值用作遍历数据，如果要对数组中元素进行修改，还是需要使用 for 循环带索引的方式进行，因为在上述的代码中，a 只是循环元素的一个副本。
 
 
 
