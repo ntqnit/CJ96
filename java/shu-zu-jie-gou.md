@@ -46,7 +46,7 @@ int[] arrs = {1, 2, 3, 4}; // 简写
 type[] arrayName = new type[length];
 ```
 
-> 数组中的索引，通过 arrayName\[index\] 获取指定位置的数据，index 从 0 开始
+> 数组中的索引，通过 arrayName\[index\] 获取指定位置的数据，index 从 0 开始，最大值为 length-1
 
 
 
