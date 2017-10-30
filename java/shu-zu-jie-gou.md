@@ -49,5 +49,8 @@ type[] arrayName = new type[length];
 
 > 数组中的索引，通过 arrayName\[index\] 获取指定位置的数据，index 从 0 开始，最大值为 length-1
 
+* 通过数组索引方式对数组元素进行赋值时，使用数组.length属性作为 for 循环的条件。
+* 在对数组元素进行操作时，一般使用 for 循环结构。
+
 
 
