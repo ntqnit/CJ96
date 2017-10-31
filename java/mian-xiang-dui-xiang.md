@@ -94,19 +94,23 @@ public class Student1 {
 
 ```java
 public static void main(String[] args) {
-	// 构建一个对象：调用类的构造器
-	Student1 hehao = new Student1("何浩", 20, "C25");
-	
-	// 用对象：给属性赋值
-	hehao.birthday = new Date(); // 赋值
-	System.out.println(hehao.code); // 获取属性值
-	
-	// 用对象：调用对象的方法
-	System.out.println(hehao.intro());
-	hehao.listen();
-	
+    // 构建一个对象：调用类的构造器
+    Student1 hehao = new Student1("何浩", 20, "C25");
+
+    // 用对象：给属性赋值
+    hehao.birthday = new Date(); // 赋值
+    System.out.println(hehao.code); // 获取属性值
+
+    // 用对象：调用对象的方法
+    System.out.println(hehao.intro());
+    hehao.listen();
+
 }
 ```
+
+> 类名的定义要符合 Java 的标识符命名规范，类名首字母大写，如果多个单词，使用驼峰命名法则（每个独立单词首字母大写），**在 Java 中，只要看到首字母大写，你就是一个类。**
+>
+> 类中三大部件的定义是没有严格的顺序的，但是，我们一般遵循，构造器、成员编程、方法这样的定义顺序
 
 
 
