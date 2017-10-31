@@ -62,3 +62,33 @@
 
 类的三大部件：成员变量、方法、构造器。
 
+实例：
+
+```java
+public class Student1 {
+	// 成员变量
+	String name;
+	int age;
+	String code;
+	
+	// 方法
+	String intro() {
+		return "我叫"+this.name+"，我的学号是"+this.code+"，我今年"+this.age+"岁了。";
+	}
+	
+	void listen() {
+		System.out.println(this.name + "在上课。");
+	}
+	
+	// 构造器
+	Student1(String name, int age, String code) {
+		this.name = name;
+		this.age = age;
+		this.code = code;
+	}
+	
+}
+```
+
+
+
