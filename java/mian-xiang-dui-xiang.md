@@ -227,6 +227,10 @@ void listen() {
     System.out.println("自我介绍：" + this.intro() + "  " + this.name + "在上课。");
     return;
 }
+
+static String fun2() {
+    return this.intro(); // 错误代码
+}
 ```
 
 
