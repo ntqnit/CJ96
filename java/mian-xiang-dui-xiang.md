@@ -132,5 +132,13 @@ public static void main(String[] args) {
 [修饰符] 数据类型 成员变量名 [= 默认值];
 ```
 
+修饰符：可以省略，也可以是 public protected private static final，其中 public protected private 只允许出现。
+
+数据类型：可以是任意的数据类型（包含基本数据类型、类类型、数组类型）
+
+默认值：如果是类类型的，没有定义默认值，那么成员变量的值为 null，如果是基本数据，没有定义默认值，那么成员变量的值是有意义的，比如 int 就是 0，boolean 就是 false。 
+
+
+
 
 
