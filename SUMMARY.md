@@ -23,6 +23,7 @@
   * [运算符](java/yun-suan-fu.md)
   * [流程控制](java/liu-cheng-kong-zhi.md)
   * [数组结构](java/shu-zu-jie-gou.md)
+  * [面向对象](java/mian-xiang-dui-xiang.md)
 * [教学管理](jiao-xue-guan-li.md)
   * [学员名录](xue-yuan-ming-lu.md)
   * [周测统计](zhou-ce-tong-ji.md)
