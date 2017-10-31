@@ -183,10 +183,8 @@ static String fun2() {
 
 实例：
 
-```
+```java
 Student1 hehao = new Student1("何浩", 20, "C25");
-
-
 ```
 
 
