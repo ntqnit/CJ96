@@ -164,13 +164,24 @@ static String teacher = "陆老师";
 // 方法
 
 static String fun2() {
-	System.out.println(this.name); // 错误代码
-	System.out.println(teacher);
-	return "";
+    System.out.println(this.name); // 错误代码
+    System.out.println(teacher);
+    return "";
 }
 ```
 
 **使用一个对象的过程**
+
+* 定义类
+* 构建对象
+
+语法：
+
+```
+类类型 对象名 = new 构造器方法();
+```
+
+
 
 
 
