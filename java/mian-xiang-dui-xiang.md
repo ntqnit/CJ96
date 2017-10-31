@@ -308,3 +308,62 @@ class Student1 {
 
 基本数据类型，也称为「值类型」。
 
+```java
+package com;
+
+public class Demo11 {
+	void fun1(int i, int j) {
+		i = i + 5;
+		j = j + 5;
+		System.out.println("fun1-i:" + i);
+		System.out.println("fun1-j:" + j);
+	}
+	
+	void fun1(P p) {
+		p.i = p.i + 5;
+		p.j = p.j + 5;
+		System.out.println("fun1-p-i:" + p.i);
+		System.out.println("fun1-p-j:" + p.j);
+	}
+	
+	public static void main(String[] args) {
+		Demo11 demo11 = new Demo11();
+		int i = 10;
+		int j = 20;
+		demo11.fun1(i, j);
+		System.out.println("main-i:" + i);
+		System.out.println("main-j:" + j);
+		System.out.println("====================");
+		P p = new P();
+		p.i = 10;
+		p.j = 20;
+		demo11.fun1(p);
+		System.out.println("main-p-i:" + p.i);
+		System.out.println("main-p-j:" + p.j);
+		
+	}
+}
+
+class P {
+	int i;
+	int j;
+}
+
+```
+
+输出：
+
+```java
+fun1-i:15
+fun1-j:25
+main-i:10
+main-j:20
+====================
+fun1-p-i:15
+fun1-p-j:25
+main-p-i:15
+main-p-j:25
+```
+
+
+
