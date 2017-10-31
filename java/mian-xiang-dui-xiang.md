@@ -66,6 +66,13 @@
 
 ```java
 public class Student1 {
+    // 构造器
+    Student1(String name, int age, String code) {
+        this.name = name;
+        this.age = age;
+        this.code = code;
+    }
+
     // 成员变量
     String name;
     int age;
@@ -78,13 +85,6 @@ public class Student1 {
 
     void listen() {
         System.out.println(this.name + "在上课。");
-    }
-
-    // 构造器
-    Student1(String name, int age, String code) {
-        this.name = name;
-        this.age = age;
-        this.code = code;
     }
 
 }
