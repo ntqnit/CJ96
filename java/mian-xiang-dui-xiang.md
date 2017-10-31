@@ -181,7 +181,13 @@ static String fun2() {
 类类型 对象名 = new 构造器方法();
 ```
 
+实例：
 
+```
+Student1 hehao = new Student1("何浩", 20, "C25");
+
+
+```
 
 
 
