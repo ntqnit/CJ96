@@ -210,20 +210,20 @@ this 用于在类定义中，获取当前对象的属性，或者调用当前对
 
 > 在类定义中，可以省略 this 关键字去调用属性或者方法，但是在类被编译的时候，编译器还是会加上 this 关键字。所以强烈建议在类定义时如果要调用该类中的普通成员变量后者方法，还是要把 this 加上去。
 
-```
+```java
 Student1(String name, int age, String code) {
-	this.name = name;
-	this.age = age;
-	this.code = code;
+    this.name = name;
+    this.age = age;
+    this.code = code;
 }
 
 String intro() {
-	return "我叫" + this.name + "，我的学号是" + this.code + "，我今年" + this.age + "岁了。";
+    return "我叫" + this.name + "，我的学号是" + this.code + "，我今年" + this.age + "岁了。";
 }
 
 void listen() {
-	System.out.println("自我介绍：" + this.intro() + "  " + this.name + "在上课。");
-	return;
+    System.out.println("自我介绍：" + this.intro() + "  " + this.name + "在上课。");
+    return;
 }
 ```
 
