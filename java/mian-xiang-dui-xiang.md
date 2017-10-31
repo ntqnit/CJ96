@@ -237,7 +237,63 @@ static String fun2() {
 
 **所属性：**
 
-要么属于类（用 static 修饰的方法）、要么属于对象
+要么属于类（用 static 修饰的方法）、要么属于对象。
+
+```java
+public class Demo6 {
+	public static void main(String[] xxx) {
+		// 获取用户输入的信息
+		int age = Integer.valueOf(xxx[0]);
+		String sex = xxx[1];
+		
+		// 构建封装对象
+		Student1 stu = new Student1();
+		stu.age = age;
+		stu.sex = sex;
+
+		// 执行业务逻辑
+		System.out.println(stu.fun1() ? "合法" : "非法");
+
+		
+	}
+}
+
+class Student1 {
+	int age;
+	String sex;
+
+	// 用于判断年龄和性别是否是合法结婚年龄的方法
+	boolean fun1() {
+		if (this.sex.equals("男")) {
+			if (this.age >= 25) {
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			if (this.age >= 23) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+	}
+}
+
+```
+
+> 程序的设计：
+>
+> * 用户的输入
+> * 输入内容进行封装
+> * **调用业务逻辑方法**
+> * 输出结果
+
+**方法关心的要素**
+
+* 方法属于谁
+* 方法的参数
+* 方法的返回值
 
 
 
