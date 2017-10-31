@@ -241,45 +241,44 @@ static String fun2() {
 
 ```java
 public class Demo6 {
-	public static void main(String[] xxx) {
-		// 获取用户输入的信息
-		int age = Integer.valueOf(xxx[0]);
-		String sex = xxx[1];
-		
-		// 构建封装对象
-		Student1 stu = new Student1();
-		stu.age = age;
-		stu.sex = sex;
+    public static void main(String[] xxx) {
+        // 获取用户输入的信息
+        int age = Integer.valueOf(xxx[0]);
+        String sex = xxx[1];
 
-		// 执行业务逻辑
-		System.out.println(stu.fun1() ? "合法" : "非法");
+        // 构建封装对象
+        Student1 stu = new Student1();
+        stu.age = age;
+        stu.sex = sex;
 
-		
-	}
+        // 执行业务逻辑
+        System.out.println(stu.fun1() ? "合法" : "非法");
+
+
+    }
 }
 
 class Student1 {
-	int age;
-	String sex;
+    int age;
+    String sex;
 
-	// 用于判断年龄和性别是否是合法结婚年龄的方法
-	boolean fun1() {
-		if (this.sex.equals("男")) {
-			if (this.age >= 25) {
-				return true;
-			} else {
-				return false;
-			}
-		} else {
-			if (this.age >= 23) {
-				return true;
-			} else {
-				return false;
-			}
-		}
-	}
+    // 用于判断年龄和性别是否是合法结婚年龄的方法
+    boolean fun1() {
+        if (this.sex.equals("男")) {
+            if (this.age >= 25) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            if (this.age >= 23) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
 }
-
 ```
 
 > 程序的设计：
@@ -294,6 +293,14 @@ class Student1 {
 * 方法属于谁
 * 方法的参数
 * 方法的返回值
+
+方法定义的语法
+
+```
+[修饰符] 返回值类型 方法名(形参列表) {
+    方法体
+}
+```
 
 
 
