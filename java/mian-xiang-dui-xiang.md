@@ -66,26 +66,44 @@
 
 ```java
 public class Student1 {
-	// 成员变量
-	String name;
-	int age;
-	String code;
+    // 成员变量
+    String name;
+    int age;
+    String code;
+
+    // 方法
+    String intro() {
+        return "我叫"+this.name+"，我的学号是"+this.code+"，我今年"+this.age+"岁了。";
+    }
+
+    void listen() {
+        System.out.println(this.name + "在上课。");
+    }
+
+    // 构造器
+    Student1(String name, int age, String code) {
+        this.name = name;
+        this.age = age;
+        this.code = code;
+    }
+
+}
+```
+
+使用类构建对象
+
+```java
+public static void main(String[] args) {
+	// 构建一个对象：调用类的构造器
+	Student1 hehao = new Student1("何浩", 20, "C25");
 	
-	// 方法
-	String intro() {
-		return "我叫"+this.name+"，我的学号是"+this.code+"，我今年"+this.age+"岁了。";
-	}
+	// 用对象：给属性赋值
+	hehao.birthday = new Date(); // 赋值
+	System.out.println(hehao.code); // 获取属性值
 	
-	void listen() {
-		System.out.println(this.name + "在上课。");
-	}
-	
-	// 构造器
-	Student1(String name, int age, String code) {
-		this.name = name;
-		this.age = age;
-		this.code = code;
-	}
+	// 用对象：调用对象的方法
+	System.out.println(hehao.intro());
+	hehao.listen();
 	
 }
 ```
