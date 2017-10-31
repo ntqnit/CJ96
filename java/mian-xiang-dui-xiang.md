@@ -158,7 +158,19 @@ public static void main(String[] args) {
 >
 > 静态成员之间是可以互相访问的。
 
+```java
+static String teacher = "陆老师";
 
+// 方法
+
+static String fun2() {
+	System.out.println(this.name); // 错误代码
+	System.out.println(teacher);
+	return "";
+}
+```
+
+**使用一个对象的过程**
 
 
 
